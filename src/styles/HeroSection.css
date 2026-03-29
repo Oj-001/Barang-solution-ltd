@@ -35,7 +35,7 @@
 .hero-buttons {
   display: flex;
   gap: 15px;
-  color: #bc6c25;
+  color: white;
 }
 
 .btn {
@@ -50,7 +50,7 @@
 
 .primary-btn {
   background-color: #bc6c25;
-  color: #bc6c25;
+  color: white;
 }
 
 .primary-btn:hover {
@@ -60,7 +60,7 @@
 
 .secondary-btn {
   background-color: transparent;
-  color: #bc6c25;
+  color: white;
   border: 2px solid #bc6c25;
 }
 
@@ -69,10 +69,13 @@
   transform: translateY(-2px);
 }
 .btn primary-btn{
-  color: #bc6c25;
+  background-color: #bc6c25;
+  color: white;
 }
 .btn secondary-btn{
-  color: #bc6c25;
+  
+  background-color: #bc6c25;
+  color: white;
 }
 .hero-image {
   flex: 1;
