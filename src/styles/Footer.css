@@ -56,7 +56,7 @@
   bottom: 0;
   width: 50px;
   height: 2px;
-  background-color: #1a5631; /* Changed from #0070f3 to dark green */
+  background-color: #8B5A2B; /* Changed from #0070f3 to dark green */
 }
 
 .footer-section ul {
@@ -76,7 +76,7 @@
 }
 
 .footer-section ul li a:hover {
-  color: #1a5631; /* Changed from #0070f3 to dark green */
+  color: #8B5A2B; /* Changed from #0070f3 to dark green */
 }
 
 .footer-section p {
@@ -106,7 +106,7 @@
   bottom: 0;
   width: 50px;
   height: 2px;
-  background-color: #1a5631; /* Changed from #0070f3 to dark green */
+  background-color: #8B5A2B; /* Changed from #0070f3 to dark green */
 }
 
 .social-icons {
@@ -127,7 +127,7 @@
 }
 
 .social-icons a:hover {
-  background-color: #1a5631; /* Changed from #0070f3 to dark green */
+  background-color: #8B5A2B; /* Changed from #0070f3 to dark green */
   transform: translateY(-5px);
 }
 

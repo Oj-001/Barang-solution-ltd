@@ -48,28 +48,28 @@
 }
 
 .navbar-logo:hover .navbar-logo-text h1 {
-  color: #1a5631;
+  color: #bc6c25;
 }
 
 .slogan {
-  color: #1a5631;
+  color: #bc6c25;
 }
 
 .nav-links::after {
-  background-color: #1a5631;
+  background-color: #bc6c25;
 }
 
 .nav-links:hover {
-  color: #1a5631;
+  color: #bc6c25;
 }
 
 .menu-icon:hover {
-  color: #1a5631;
+  color: #bc6c25;
 }
 
 .slogan {
   font-size: 0.85rem;
-  color: #1a5631;
+  color: #bc6c25;
   margin: 0;
   font-weight: 500;
 }
