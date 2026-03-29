@@ -62,19 +62,19 @@ const ContactUs = () => {
           <div className="info-item">
             <i className="fas fa-map-marker-alt"></i>
             <div>
-              <p>Park Suites, Parklands Road, Westlands</p>
+              <p>Kiambu, Thika</p>
             </div>
           </div>
           <div className="info-item">
             <i className="fab fa-whatsapp"></i>
             <div>
-              <p>+254 722 114 098</p>
+              <p>+254 722 504 262</p>
             </div>
           </div>
           <div className="info-item">
             <i className="fas fa-envelope"></i>
             <div>
-              <p>info@ajax.co.ke</p>
+              <p>info@barungsolutioms.com</p>
             </div>
           </div>
           
