@@ -36,6 +36,7 @@
   display: flex;
   gap: 15px;
   color: white;
+  background-color: #bc6c25;
 }
 
 .btn {
@@ -46,6 +47,7 @@
   transition: all 0.3s ease;
   border: none;
   font-size: 1rem;
+  background-color: #bc6c25;
 }
 
 .primary-btn {
@@ -68,11 +70,11 @@
   background-color: rgba(188, 108, 37, 0.1);
   transform: translateY(-2px);
 }
-.btn primary-btn{
+.btn .primary-btn{
   background-color: #bc6c25;
   color: white;
 }
-.btn secondary-btn{
+.btn .secondary-btn{
   
   background-color: #bc6c25;
   color: white;
