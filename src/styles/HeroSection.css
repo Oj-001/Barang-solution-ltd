@@ -1,98 +1,107 @@
 .hero-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 80px 20px;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  min-height: 80vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 80px 20px;
+background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+min-height: 80vh;
 }
 
 .hero-content {
-  flex: 1;
-  max-width: 600px;
-  padding-right: 40px;
+flex: 1;
+max-width: 600px;
+padding-right: 40px;
 }
 
 .hero-content h1 {
-  font-size: 3rem;
-  margin-bottom: 10px;
-  color: #333;
+font-size: 3rem;
+margin-bottom: 10px;
+color: #333;
 }
 
 .hero-content h2 {
-  font-size: 1.8rem;
-  margin-bottom: 20px;
-  color: #bc6c25;
+font-size: 1.8rem;
+margin-bottom: 20px;
+color: #bc6c25;
 }
 
 .hero-content p {
-  font-size: 1.2rem;
-  margin-bottom: 30px;
-  color: #666;
-  line-height: 1.6;
+font-size: 1.2rem;
+margin-bottom: 30px;
+color: #666;
+line-height: 1.6;
 }
 
 .hero-buttons {
-  display: flex;
-  gap: 15px;
+display: flex;
+gap: 15px;
 }
 
-/* Base button style */
+/* BUTTON BASE STYLE */
 .btn {
-  padding: 12px 24px;
-  border-radius: 5px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-size: 1rem;
-  text-decoration: none;
-  display: inline-block;
+padding: 12px 24px;
+border-radius: 5px;
+font-weight: 600;
+cursor: pointer;
+transition: all 0.3s ease;
+border: none;
+font-size: 1rem;
+text-decoration: none;
+display: inline-block;
 }
 
-/* BOTH BUTTONS COLOR */
-.primary-btn,
+/* PRIMARY BUTTON */
+.primary-btn {
+background-color: #bc6c25 !important;
+color: white !important;
+border: 2px solid #bc6c25 !important;
+}
+
+.primary-btn:hover {
+background-color: #8B5A2B !important;
+border-color: #8B5A2B !important;
+transform: translateY(-2px);
+}
+
+/* SECONDARY BUTTON */
 .secondary-btn {
-  background-color: #bc6c25;
-  color: white;
-  border: 2px solid #bc6c25;
+background-color: #bc6c25 !important;
+color: white !important;
+border: 2px solid #bc6c25 !important;
 }
 
-/* HOVER EFFECT */
-.primary-btn:hover,
 .secondary-btn:hover {
-  background-color: #8B5A2B;
-  border-color: #8B5A2B;
-  transform: translateY(-2px);
+background-color: #8B5A2B !important;
+border-color: #8B5A2B !important;
+transform: translateY(-2px);
 }
 
-/* Hero image section */
 .hero-image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .hero-image img {
-  max-width: 100%;
-  border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+max-width: 100%;
+border-radius: 10px;
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-/* Responsive design */
 @media screen and (max-width: 960px) {
-  .hero-section {
-    flex-direction: column;
-    text-align: center;
-    padding: 60px 20px;
-  }
+.hero-section {
+flex-direction: column;
+text-align: center;
+padding: 60px 20px;
+}
 
-  .hero-content {
-    padding-right: 0;
-    margin-bottom: 40px;
-  }
+.hero-content {
+padding-right: 0;
+margin-bottom: 40px;
+}
 
-  .hero-buttons {
-    justify-content: center;
-  }
+.hero-buttons {
+justify-content: center;
+}
 }
