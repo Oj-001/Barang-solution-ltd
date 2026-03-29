@@ -155,19 +155,19 @@
 }
 
 .contact-info {
-  background-color: #8B5A2B;
+  background-color: #bc6c25;
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
-  border-color: #8B5A2B;
+  border-color: #bc6c25;
   box-shadow: 0 0 0 3px rgba(26, 86, 49, 0.2);
 }
 
 .submit-btn {
-  background-color: #8B5A2B;
+  background-color: #bc6c25;
 }
 
 .submit-btn:hover {
-  background-color: #6B8E23;
+  background-color: #8B5A2B;
 }

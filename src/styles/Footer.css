@@ -31,7 +31,7 @@
 }
 
 .footer-logo p {
-  color: #1a5631; /* Green color for slogan */
+  color: #bc6c25; /* Green color for slogan */
   font-size: 1rem;
 }
 
@@ -56,7 +56,7 @@
   bottom: 0;
   width: 50px;
   height: 2px;
-  background-color: #8B5A2B; /* Changed from #0070f3 to dark green */
+  background-color: #bc6c25; /* Changed from #0070f3 to dark green */
 }
 
 .footer-section ul {
@@ -88,7 +88,7 @@
 
 .footer-section p i {
   margin-right: 10px;
-  color: #1a5631; /* Changed from #0070f3 to dark green */
+  color: #bc6c25; /* Changed from #0070f3 to dark green */
 }
 
 .footer-social h3 {
@@ -106,12 +106,13 @@
   bottom: 0;
   width: 50px;
   height: 2px;
-  background-color: #8B5A2B; /* Changed from #0070f3 to dark green */
+  background-color: #bc6c25; /* Changed from #0070f3 to dark green */
 }
 
 .social-icons {
   display: flex;
   gap: 15px;
+  color: #bc6c25;
 }
 
 .social-icons a {
