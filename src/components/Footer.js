@@ -34,9 +34,9 @@ const Footer = () => {
           </div>
           <div className="footer-section">
             <h3>Contact Info</h3>
-            <p><i className="fas fa-map-marker-alt"></i> Park Suites, Parklands Road, Westlands</p>
-            <p><i className="fas fa-phone"></i> +254 722 114 098</p>
-            <p><i className="fas fa-envelope"></i> info@ajax.co.ke</p>
+            <p><i className="fas fa-map-marker-alt"></i> Kiambu, Thika</p>
+            <p><i className="fas fa-phone"></i> +254 722 504 262</p>
+            <p><i className="fas fa-envelope"></i> info@barungsolutioms.com</p>
           </div>
         </div>
         <div className="footer-social">
@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} Barang Solutions Limited. All Rights Reserved. Established in 2013</p>
+        <p>&copy; {new Date().getFullYear()} Barang Solutions Limited. All Rights Reserved. Established in 2025</p>
       </div>
     </footer>
   );
