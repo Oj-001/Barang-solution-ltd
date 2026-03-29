@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} Ajax Technologies Limited. All Rights Reserved. Established in 2013</p>
+        <p>&copy; {new Date().getFullYear()} Barang Solutions Limited. All Rights Reserved. Established in 2013</p>
       </div>
     </footer>
   );
