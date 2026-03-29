@@ -36,6 +36,8 @@
   display: flex;
   gap: 15px;
   color: white;
+}
+.hero-buttons a{
   background-color: #bc6c25;
 }
 
