@@ -28,7 +28,7 @@ const ContactUs = () => {
     
     emailjs.sendForm(
       'service_6hvw06c', 
-      'template_2jof1xr', // Fixed the typo in template ID (removed extra 't')
+      'template_gdnw0j8', // Fixed the typo in template ID (removed extra 't')
       form.current,
       'M0siBmV_02QwB81j6'
     )
@@ -62,7 +62,7 @@ const ContactUs = () => {
           <div className="info-item">
             <i className="fas fa-map-marker-alt"></i>
             <div>
-              <p>Kiambu, Thika</p>
+              <p>Thika</p>
             </div>
           </div>
           <div className="info-item">
@@ -74,7 +74,7 @@ const ContactUs = () => {
           <div className="info-item">
             <i className="fas fa-envelope"></i>
             <div>
-              <p>info@barungsolutioms.com</p>
+              <p>info@barangsolutions.com</p>
             </div>
           </div>
           

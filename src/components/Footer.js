@@ -34,9 +34,9 @@ const Footer = () => {
           </div>
           <div className="footer-section">
             <h3>Contact Info</h3>
-            <p><i className="fas fa-map-marker-alt"></i> Kiambu, Thika</p>
+            <p><i className="fas fa-map-marker-alt"></i>Thika</p>
             <p><i className="fas fa-phone"></i> +254 722 504 262</p>
-            <p><i className="fas fa-envelope"></i> info@barungsolutioms.com</p>
+            <p><i className="fas fa-envelope"></i> info@barangsolutions.com</p>
           </div>
         </div>
         <div className="footer-social">
